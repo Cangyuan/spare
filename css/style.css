@@ -1,11 +1,73 @@
-body,html,a,img,div,ul,li,ol{
+body,html,a,img,div,ul,li,ol,span{
 	margin: 0;
 	padding: 0;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	list-style: none;
+}
+a,a:hover,a:active,a:fofus,a:visited{
+	text-decoration: none;
+}
+#header{
+	padding: 0 2%;
+	background: #333;
+	height: 80px;
+	color: #fff;
 }
 .wrap-logo{
 	width: 40%;
 	float: left;
+	position: relative;
+	height: 80px;
 }
 .wrap-logo img{
 	width: 80px;
+}
+.wrap-logo>a{
+	padding-right: 6px;
+}
+.wrap-logo span{
+	color: #fff;
+	font-size: 24px;
+	/*font-weight: bold;*/
+	/*text-shadow: 4px 4px 4px #d6ceb8,4px 4px 0px #d7d4c4;*/
+	position: absolute;
+	top: 50%;
+	margin-top: -12px;
+	letter-spacing: 1px;
+	font-family: "黑体"
+}
+.wrap-nav{
+	float: right;
+	width: 40%;
+}
+.wrap-nav>ul{
+	display: table;
+	width: 100%;
+
+}
+.wrap-nav>ul>li{
+	display: table-cell;
+}
+.wrap-nav>ul>li>a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin-top: 14px;
+	border: 1px solid #fff;
+	text-align: center;
+	letter-spacing: 1px;
+	transform: rotate(-45deg);
+	overflow: hidden;
+}
+.wrap-nav>ul>li>a>span{
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin: 0 auto;
+	position: relative;
+	left: 4px;
+	transform: rotate(45deg);
+	color:#fff;
+	letter-spacing: 2px;
 }
