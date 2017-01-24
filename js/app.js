@@ -14,6 +14,6 @@ app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
             name: "/",
             url: "/",
             templateUrl: 'tpls/home.html',
-            controller: 'homeConstoller'
+            // controller: 'homeConstoller'
         })	
 })
