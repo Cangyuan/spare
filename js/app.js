@@ -15,5 +15,17 @@ app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
             url: "/",
             templateUrl: 'tpls/home.html',
             // controller: 'homeConstoller'
+        })
+        .state({
+            name: "download",
+            url: "/download",
+            templateUrl: 'tpls/download.html',
+            // controller: 'homeConstoller'
+        })
+        .state({
+            name: "contact",
+            url: "/contact",
+            templateUrl: 'tpls/contact.html',
+            // controller: 'homeConstoller'
         })	
 })
