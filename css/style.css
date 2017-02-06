@@ -313,6 +313,7 @@ a:-webkit-any-link {
 	height: 400px;
 	padding: 50px 0;
 	overflow: hidden;
+	background: #f3f8f9;
 }
 #four>h3{
 	text-align: center;
@@ -337,6 +338,7 @@ a:-webkit-any-link {
 	border-radius: 50%;
 	position: relative;
 	background-size: cover;
+	box-shadow: 0 10px 15px rgba(0,0,0,.3);
 }
 .four-go:nth-of-type(1) .circle{
 	background: url(../imgs/yiliuyi.jpg) no-repeat center;	
@@ -376,6 +378,10 @@ a:-webkit-any-link {
 	background: none;
 	width: 0;
 }
+.list ul{
+	margin-top: 20px;
+}
+
 .list ul>li{
 	position: relative;
 	left: 20%;
@@ -415,14 +421,16 @@ a:-webkit-any-link {
     background-color: red;
     flex-flow: row wrap;
     align-content: flex-start;
-    padding-bottom: 20px;
+}
+.fr-img{
+	width: 100%;
+}
+.fr-img>img{
+	display: block;
+	width: 100%;
 }
 .friend{
-	box-sizing: border-box;
-	background-color: white;
-	flex: 0 0 25%;
-	height: 50px;
-	border: 1px solid red;
+	flex: 0 0 33.333%;
 }
 /*footer start*/
 footer{
