@@ -122,10 +122,18 @@
 	<h3>绮罗生相关配乐</h3>
 	<div class="music">
 		<ul>
-			<li>白衣沽酒</li>
-			<li>江山快手</li>
+			<li ng-repeat="music in musics">
+				<a href="">
+					<div class="music-img">
+						<img ng-src="{{music.img}}" alt="">
+						<img class="start-link" src="./imgs/public/start.png" alt="">
+					</div>
+					<p>{{music.name}}</p>					
+				</a>
+			</li>
+			<!-- <li>江山快手</li>
 			<li>武魂血胆</li>
-			<li>刀饮江山</li>
+			<li>刀饮江山</li> -->
 		</ul>
 		<div class="wrap-music">
 			<div class="item">刀剑心</div>

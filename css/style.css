@@ -462,6 +462,34 @@ a:-webkit-any-link {
 	display: table-cell;
 	text-align: center;
 }
+.music>ul>li>a{
+	display: block;
+	padding: 15%;
+	height: 100%;
+}
+.music>ul>li p{
+	color: #4d4d4d;
+}
+.music-img{
+	position: relative;
+}
+.music-img>.start-link{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 40px;
+	height: 40px;
+}
+.music-img>img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
 .wrap-music{
 	display: table;
 	width: 90%;
