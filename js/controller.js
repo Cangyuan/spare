@@ -14,5 +14,17 @@ app.controller('homeConstoller', ['$scope', function($scope){
 	{
 		name:"刀饮江山",
 		img:"./imgs/daoyinjiangshan.jpg"
+	}];
+	$scope.items = [{
+		name:"刀剑心",
+		img:"./imgs/daojianxin.jpg"
+	},
+	{
+		name:"醉寒江",
+		img:"./imgs/zuihanjiang.jpg"
+	},
+	{
+		name:"琅华光阴",
+		img:"./imgs/qiluoguangyin.jpg"
 	}]
 }])
