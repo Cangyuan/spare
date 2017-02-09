@@ -28,7 +28,7 @@ app.controller('homeConstoller', ['$scope', function($scope){
 		name:"琅华光阴",
 		img:"./imgs/qiluoguangyin.jpg"
 	}];
-	$scope.topBg = './imgs/public/2.jpg';
+	
 	// $scope.goDefault = function(){
 	// 	$('.cover-bg').css('background', 'none');
 	// 	alert('111')
@@ -43,6 +43,7 @@ app.controller('homeConstoller', ['$scope', function($scope){
 	
 }])
 app.controller('downCon', ['$scope', function($scope){
+
 	$scope.month = [{
 		name:"01期 《绮罗·情》2013年09月 绮罗生官方后援会电子月刊",
 		url:"./files/qiluoyuekan/01.exe",
@@ -67,4 +68,10 @@ app.controller('downCon', ['$scope', function($scope){
 		url:"./files/qiluoyuekan/09.exe",
 		img:"./imgs/qi.jpg"
 	}]
+	$scope.bg = true;
+	$scope.topBg = './imgs/public/2.jpg';
+}])
+app.controller('contactCon', ['$scope', function($scope){
+	$scope.bg = true;
+	$scope.topBg = './imgs/public/2.jpg';
 }])

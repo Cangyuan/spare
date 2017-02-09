@@ -26,6 +26,6 @@ app.config(function($stateProvider, $urlRouterProvider,$httpProvider) {
             name: "contact",
             url: "/contact",
             templateUrl: 'tpls/contact.html',
-            // controller: 'homeConstoller'
+            controller: 'contactCon'
         })	
 })
