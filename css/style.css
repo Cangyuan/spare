@@ -23,6 +23,12 @@ a:-webkit-any-link {
 .right{
 	float: right;
 }
+#four>h3,#six>h3,.dw-one>h3{
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
 #header{
 	height: 80px;
 	color: #fff;
@@ -173,30 +179,6 @@ a:-webkit-any-link {
 .wrap-content .left ul>li:nth-of-type(1){
 	border-top: 1px solid #ccc;
 }
-/*.wrap-content .left ul>li:nth-of-type(1){
-	background: url(../imgs/public/1.jpg) no-repeat center;
-	background-size: auto 100%;
-}
-.wrap-content .left ul>li:nth-of-type(2){
-	background: url(../imgs/public/1.jpg) no-repeat center;
-	background-size: auto 100%;
-}
-.wrap-content .left ul>li:nth-of-type(3){
-	background: url(../imgs/public/1.jpg) no-repeat center;
-	background-size: auto 100%;
-}
-.wrap-content .left ul>li:nth-of-type(4){
-	background: url(../imgs/public/1.jpg) no-repeat center;
-	background-size: auto 100%;
-}
-.wrap-content .left ul>li:nth-of-type(5){
-	background: url(../imgs/public/1.jpg) no-repeat;
-	background-size: auto 100%;
-}
-.wrap-content .left ul>li:nth-of-type(6){
-	background: url(../imgs/public/1.jpg) no-repeat;
-	background-size: auto 100%;
-}*/
 .wrap-download{
 	position: absolute;
 	top: 50%;
@@ -319,12 +301,6 @@ a:-webkit-any-link {
 	padding: 50px 0;
 	overflow: hidden;
 	background: #f3f8f9;
-}
-#four>h3,#six>h3{
-	text-align: center;
-	font-weight: normal;
-	font-size: 20px;
-	letter-spacing: 2px;
 }
 .wrap-go{
 	width: 100%;
@@ -556,6 +532,29 @@ footer .right{
 	z-index: 4;
 	width: 70%;
 	margin: 40px auto;
+}
+/*download start*/
+.dw-one{
+	margin: 50px 0 30px 0;
+}
+.dw-one>ul{
+	margin: 30px 0;
+	display: flex;
+	width: 100%;
+    /*background-color: red;*/
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.dw-one>ul>li{
+	flex: 0 0 33.333%;
+}
+.wrap-img{
+	position: relative;
+	width: 100%;
+}
+.wrap-img>img{
+	width: 100%;
+	height: auto;
 }
 /*contact start*/
 .ab-main{

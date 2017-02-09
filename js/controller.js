@@ -28,3 +28,29 @@ app.controller('homeConstoller', ['$scope', function($scope){
 		img:"./imgs/qiluoguangyin.jpg"
 	}]
 }])
+app.controller('downCon', ['$scope', function($scope){
+	$scope.month = [{
+		name:"01期 《绮罗·情》2013年09月 绮罗生官方后援会电子月刊",
+		url:"./files/qiluoyuekan/01.exe",
+		img:"./imgs/qi.jpg"
+	},
+	{
+		name:"04期 《绮罗·情》2013年12月 绮罗生官方后援会电子月刊",
+		url:"./files/qiluoyuekan/04.exe",
+		img:"./imgs/qi.jpg"
+	},
+	{
+		name:"05期 《绮罗·情》2014年01月 绮罗生官方后援会电子月刊",
+		url:"./files/qiluoyuekan/05.exe",
+		img:"./imgs/qi.jpg"
+	},{
+		name:"07期 《绮罗·情》2014年03月 绮罗生官方后援会电子月刊",
+		url:"./files/qiluoyuekan/07.exe",
+		img:"./imgs/qi.jpg"
+	},
+	{
+		name:"09期 《绮罗·情》2014年05月 绮罗生官方后援会电子月刊",
+		url:"./files/qiluoyuekan/09.exe",
+		img:"./imgs/qi.jpg"
+	}]
+}])

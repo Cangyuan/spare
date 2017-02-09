@@ -2,11 +2,15 @@
 <section class="dw-one">
 	<h3>绮罗生月刊下载</h3>
 	<ul>
-		<li><a href="">01期 《绮罗·情》2013年09月 绮罗生官方后援会电子月刊</a></li>
-		<li><a href="">04期 《绮罗·情》2013年12月 绮罗生官方后援会电子月刊</a></li>
-		<li><a href="">05期 《绮罗·情》2014年01月 绮罗生官方后援会电子月刊</a></li>
-		<li><a href="">07期 《绮罗·情》2014年03月 绮罗生官方后援会电子月刊</a></li>
-		<li><a href="">09期 《绮罗·情》2014年05月 绮罗生官方后援会电子月刊</a></li>
+		<li ng-repeat="exe in month">
+			
+			<div class="wrap-img">
+				<img ng-src="{{exe.img}}" alt="">
+			</div>
+			<a  ng-href="{{exe.url}}">
+				<p>{{exe.name}}</p>
+			</a>
+		</li>
 	</ul>
 </section>
 <section></section>
