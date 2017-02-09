@@ -3,13 +3,19 @@
 	<h3>绮罗生月刊下载</h3>
 	<ul>
 		<li ng-repeat="exe in month">
-			
-			<div class="wrap-img">
-				<img ng-src="{{exe.img}}" alt="">
-			</div>
-			<a  ng-href="{{exe.url}}">
-				<p>{{exe.name}}</p>
-			</a>
+			<div class="wrap-exe">
+				<div class="wrap-img">
+					<img ng-src="{{exe.img}}" alt="">
+					<div class="exe-dw">
+						<!-- <div class="wrap-down"> -->
+							<p>{{exe.name}}</p>
+							<a  ng-href="{{exe.url}}">
+								download
+							</a>
+						<!-- </div> -->
+					</div>
+				</div>	
+			</div>		
 		</li>
 	</ul>
 </section>
