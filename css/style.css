@@ -5,6 +5,9 @@ body,html,a,img,div,ul,li,ol,span,section,video,h1,h2,h3{
 	font-family: "微软雅黑";
 	list-style: none;
 }
+body,html{
+	background: #f2f2f2;
+}
 a,a:hover,a:active,a:fofus,a:visited{
 	text-decoration: none!important;
 }
@@ -27,20 +30,21 @@ a:-webkit-any-link {
 }
 .wrap-top{
 	padding: 0 2%;
-	background: #000;
+	background: #262626;
 	position: relative;
 	z-index: 99;
 	width: 100%;
 	height: 100%;
+	opacity: 0.8;
 }
 .cover-bg{
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 3000px;
+	width: 100%;
 	height: 80px;
-	background: url(../imgs/flower.png) center;
-	background-size: auto 160px;
+	background: url(../imgs/public/2.jpg) center;
+	/*background-size: auto 160px;
 	background-repeat: repeat-x;
 	moz-animation: bg 60s linear infinite;
     -webkit-animation: bg 60s linear infinite;
@@ -52,7 +56,7 @@ a:-webkit-any-link {
     -webkit-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);*/
 }
 .wrap-logo{
 	width: 40%;
@@ -551,6 +555,49 @@ footer .right{
 	z-index: 4;
 	width: 70%;
 	margin: 40px auto;
+}
+/*contact start*/
+.ab-main{
+	/*position: relative;*/
+	margin-top: 82px;
+	margin-bottom: 150px;
+}
+.wrap-ab{
+	width: 60%;
+	margin: 0 auto;
+	min-height: 300px;
+	background: #fff;
+	/*box-shadow: 0 0 4px #ddd;*/
+	position: relative;
+	padding: 20px;
+	box-sizing:border-box;
+}
+.ab-title{
+	padding: 20px 0;
+}
+.ab-title>h3{
+	font-size: 30px;
+    color: #333;
+    font-weight: normal;
+    letter-spacing: .1em;
+}
+.ab-info{
+	position: relative;
+}
+.ab-info>.info-text{
+	width: 100%;
+}
+#aside{
+	position: absolute;
+	top: 30px;
+	right: -140px;
+}
+#aside>a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	margin: 20px;
 }
 
 
