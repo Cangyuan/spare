@@ -4,6 +4,7 @@ body,html,a,img,div,ul,li,ol,span,section,video,h1,h2,h3{
 	font-size: 14px;
 	font-family: "微软雅黑";
 	list-style: none;
+	line-height: 1.8;
 }
 body,html{
 	background: #f2f2f2;
