@@ -52,21 +52,21 @@ app.controller('downCon', ['$scope', function($scope){
 	{
 		name:"04期 《绮罗·情》2013年12月 绮罗生官方后援会电子月刊",
 		url:"./files/qiluoyuekan/04.exe",
-		img:"./imgs/qi.jpg"
+		img:"./imgs/wupo.jpg"
 	},
 	{
 		name:"05期 《绮罗·情》2014年01月 绮罗生官方后援会电子月刊",
 		url:"./files/qiluoyuekan/05.exe",
-		img:"./imgs/qi.jpg"
+		img:"./imgs/daoyinjiangshan.jpg"
 	},{
 		name:"07期 《绮罗·情》2014年03月 绮罗生官方后援会电子月刊",
 		url:"./files/qiluoyuekan/07.exe",
-		img:"./imgs/qi.jpg"
+		img:"./imgs/shijiancheng.jpg"
 	},
 	{
 		name:"09期 《绮罗·情》2014年05月 绮罗生官方后援会电子月刊",
 		url:"./files/qiluoyuekan/09.exe",
-		img:"./imgs/qi.jpg"
+		img:"./imgs/3_boad.jpg"
 	}]
 	$scope.bg = true;
 	$scope.topBg = './imgs/public/2.jpg';
