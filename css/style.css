@@ -23,11 +23,23 @@ a:-webkit-any-link {
 .right{
 	float: right;
 }
-#four>h3,#six>h3,.dw-one>h3{
+#four>h3,#six>h3,.dw-one>h3,.wrap-mv>h3{
 	text-align: center;
 	font-weight: normal;
 	font-size: 20px;
 	letter-spacing: 2px;
+	position: relative;
+	z-index: 10;
+}
+.dw-one>ul,.wrap-mv>ul{
+	margin: 30px 0;
+	display: flex;
+	width: 100%;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.dw-one>ul>li,.wrap-mv>ul>li{
+	flex: 0 0 33.333%;
 }
 #header{
 	height: 80px;
@@ -541,13 +553,6 @@ footer .right{
 }
 .dw-one>ul{
 	margin: 30px 0;
-	display: flex;
-	width: 100%;
-    flex-flow: row wrap;
-    align-content: flex-start;
-}
-.dw-one>ul>li{
-	flex: 0 0 33.333%;
 }
 .wrap-exe{
 	padding: 10px;
@@ -615,15 +620,34 @@ footer .right{
 	opacity: 1;
 	transition: .5s;;
 }
-/*.exe-dw p{
-	position: absolute;
-	top: 50%;
-	left: 20%;
-	width: 60%;
-	margin-top: -6px;
-	text-align: center;
-	z-index: 99;
+.dw-two{
+	background: url(../imgs/boad-1.jpg) no-repeat center;
+	background-attachment: fixed;
+	position: relative;
 }
+.wrap-mv{
+	color: #fff;
+	padding: 40px 2%;
+	position: relative;
+	z-index: 10;
+}
+.dw-cover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #3e4666;
+	opacity: .6;
+}
+.dw-two>ul>li{
+	/*padding:0 10px;*/
+}
+.wrap-mv>ul>li>video{
+	width: 96%;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 2px 2px 6px #ddd;
+}
+
 /*contact start*/
 .ab-main{
 	/*position: relative;*/
