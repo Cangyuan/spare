@@ -2,44 +2,39 @@ app.controller('homeConstoller', ['$scope', function($scope){
 
 	$scope.musics = [{
 		name:"白衣沽酒",
+		url:"./files/mp3/baiyigujiu.m4a",
 		img:"./imgs/shijiancheng.jpg"
 	},
 	{
 		name:"武破血胆",
+		url:"./files/mp3/wupoxuedan.mp3",
 		img:"./imgs/wupo.jpg"
 	},
 	{
 		name:"江山快手",
+		url:"./files/mp3/jiangshankuaishou.mp3",
 		img:"./imgs/hill1.jpg"
 	},
 	{
 		name:"刀饮江山",
+		url:"./files/mp3/daoyinjiangshan.mp3",	
 		img:"./imgs/daoyinjiangshan.jpg"
 	}];
 	$scope.items = [{
 		name:"刀剑心",
+		url:"./files/mp3/daojianxin.mp3",	
 		img:"./imgs/daojianxin.jpg"
 	},
 	{
 		name:"醉寒江",
+		url:"./files/mp3/zuihanjiang.mp3",	
 		img:"./imgs/zuihanjiang.jpg"
 	},
 	{
 		name:"琅华光阴",
+		url:"./files/mp3/langhuaguangyin.mp3",	
 		img:"./imgs/qiluoguangyin.jpg"
 	}];
-	
-	// $scope.goDefault = function(){
-	// 	$('.cover-bg').css('background', 'none');
-	// 	alert('111')
-	// 	$('.wrap-top').css({
-	// 		background: '#2b2b2b!important',
-	// 		opcity: '1!important'
-	// 	});
-	// }
-	// $(function(){
-		
-	// })
 	
 }])
 app.controller('downCon', ['$scope', function($scope){

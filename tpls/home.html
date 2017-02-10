@@ -15,8 +15,8 @@
 			</ul>
 		</div>
 		<div class="wrap-download right">
-			<h2>绮罗生全集下载</h2>
-			<p><a href="" class="btn"><img src="imgs/public/down.png" alt=""></a></p>
+			<h2>绮罗生月刊下载</h2>
+			<p><a ui-sref="download" class="btn"><img src="imgs/public/down.png" alt=""></a></p>
 		</div>	
 	</div>
 </section>
@@ -31,7 +31,7 @@
 		<div class="wrap-p">
 			<p>奇花八部之“兽花”，同时也是武道内发七修之一，擅使刀，名号江山快手。貌美如玉，声音温润如清风拂耳，全身雪白，耳尖长有珊瑚角。其花术类似刺青，以琉璃长针穿心血为线，刺牡丹花艳在身，牡丹已与艳身者心血相连，是以人有悲欢而花有开谢，玄妙非常。以玉阳江中画舫为居。在多年前刀法大成时，便步出叫唤渊薮，挑战天下；后却因一桩武林旧怨而封刀，自此改以射箭为用。</p>
 			<p>白衣沽酒绮罗生，一袭白衣，沉稳而雅，温文如玉的气质，一如其顾全他人，留有余地的行事作风，但却也因为这份体贴之心，让绮罗生在险恶的江湖中，数次使自己陷入险境。相比于外表的淡雅处世，一旦事关认可的兄弟与朋友，重情重义的侠者傲骨往往让绮罗生轻易便选择走上极端，甚至牺牲自我在所不惜。这份至情至性也成为绮罗生撼动观众的因素。</p>
-			<a href="#">了解更多>></a>
+			<a ui-sref="contact">了解更多>></a>
 		</div>
 	</div>
 </section>
@@ -126,7 +126,7 @@
 				<div class="wrap-con">
 					<div class="music-img">
 						<img ng-src="{{music.img}}" alt="">
-						<a href="">
+						<a ng-href="{{music.url}}" target="_blank">
 							<img class="start-link" src="./imgs/public/start.png" alt="">
 						</a>
 					</div>
@@ -139,7 +139,7 @@
 				<div class="item-con">
 					<div class="item-img">
 						<img ng-src="{{item.img}}" alt="">
-						<a href="./files/mp3/zuihanjiang.mp3">
+						<a ng-href="{{item.url}}" target="_blank">
 							<img class="start-link" src="./imgs/public/start.png" alt="">
 						</a>
 					</div>
