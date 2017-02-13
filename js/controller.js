@@ -35,6 +35,43 @@ app.controller('homeConstoller', ['$scope', function($scope){
 		url:"./files/mp3/langhuaguangyin.mp3",	
 		img:"./imgs/qiluoguangyin.jpg"
 	}];
+	$scope.friends = [{
+		name:"意琦行",
+		img:"./imgs/yiqixing-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"一留衣",
+		img:"./imgs/yiliuyi-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"九代师",
+		img:"./imgs/jiudaishi-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"星狼弓",
+		img:"./imgs/xinglanggong-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"最光阴",
+		img:"./imgs/zuiguangyin-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"策梦侯",
+		img:"./imgs/cemenghou-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"天踦爵",
+		img:"./imgs/tianqijue-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"妖绘天华",
+		img:"./imgs/yaohuishi-link.jpg",
+		info:"武道七修好友"
+	},{
+		name:"暴雨心奴",
+		img:"./imgs/baoyuxinnu-link.jpg",
+		info:"武道七修好友"
+	}]
 	
 }])
 app.controller('downCon', ['$scope', function($scope){

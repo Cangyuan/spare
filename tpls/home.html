@@ -107,17 +107,17 @@
 <section id="five">
 	<h3>绮罗生挚交好友</h3>
 	<div class="wrap-friend">
-		<div class="friend">
+		<div class="friend" ng-repeat="friend in friends">
 			<div class="fr-img">
-				<img src="./imgs/yiqixing-link.jpg" alt="">
+				<img ng-src="{{friend.img}}" alt="">
 			</div>
 			<div class="wrap-txt">
-				<h4></h4>
-				<p></p>
+				<h4>{{friend.name}}</h4>
+				<p>{{friend.info}}</p>
 			</div>
 		</div>
-		<!-- <div class="friend"><div class="fr-img"><img src="./imgs/yiliuyi-link.jpg" alt=""></div></div>
-		<div class="friend"><div class="fr-img"><img src="./imgs/jiudaishi-link.jpg" alt=""></div></div>
+		<!-- <div class="friend"><div class="fr-img"><img src="" alt=""></div></div>
+		<div class="friend"><div class="fr-img"><img src="" alt=""></div></div>
 		<div class="friend"><div class="fr-img"><img src="./imgs/xinglanggong-link.jpg" alt=""></div></div>
 		<div class="friend"><div class="fr-img"><img src="./imgs/zuiguangyin-link.jpg" alt=""></div></div>
 		<div class="friend"><div class="fr-img"><img src="./imgs/cemenghou-link.jpg" alt=""></div></div>
