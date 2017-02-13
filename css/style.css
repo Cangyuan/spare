@@ -23,6 +23,12 @@ a:-webkit-any-link {
 .right{
 	float: right;
 }
+footer a{
+	color: #fff!important;
+}
+footer a:hover{
+	opacity: .8;
+}
 #four>h3,#six>h3,.dw-one>h3,.wrap-mv>h3{
 	text-align: center;
 	font-weight: normal;
@@ -450,6 +456,11 @@ a:-webkit-any-link {
 .friend:hover .wrap-txt{
 	display: block;
 }
+.wrap-txt h4{
+	font-size: 18px;
+	margin: 6% 0 2%;
+	font-weight: 200;
+}
 /*six start*/
 #six{
 	background: #f3f8f9;
@@ -602,7 +613,7 @@ footer .right{
 	color: #fff;
 	z-index: 1;
 }
-.exe-dw>p{
+.exe-dw>p,.wrap-txt>h4{
 	font-size: 24px;
     font-weight: 200;
     color: #fff;
@@ -615,9 +626,9 @@ footer .right{
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     text-align: center;
-    transition: .5s;;
+    transition: .5s;
 }
-.exe-dw>a{
+.exe-dw>a,.wrap-txt>p{
 	position: absolute;
     top: 90%;
     left: 50%;
@@ -634,16 +645,16 @@ footer .right{
 .exe-dw:hover{
 	background: #4fc0aa;
 	opacity: .8;
-	transition: .5s;;
+	transition: .5s;
 }
 .exe-dw:hover p{
 	top: 36%;
-	transition: .5s;;
+	transition: .5s;
 }
-.exe-dw:hover a{
+.exe-dw:hover a,.friend:hover .wrap-txt>p{
 	top: 54%;
 	opacity: 1;
-	transition: .5s;;
+	transition: .5s;
 }
 .dw-two{
 	background: url(../imgs/boad-1.jpg) no-repeat center;
